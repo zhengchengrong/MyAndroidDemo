@@ -13,6 +13,7 @@
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:text="scale"
+    android:padding="10dp"
     />
     <View
         android:id="@+id/view_scale"
@@ -21,6 +22,37 @@
         android:background="@color/colorAccent"
         android:layout_below="@+id/tv_scale"
         android:visibility="gone"
-
+        />
+    <TextView
+        android:id="@+id/tv_alpha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="alpha"
+        android:padding="10dp"
+        android:layout_toRightOf="@+id/tv_scale"
+        />
+    <TextView
+        android:id="@+id/tv_rotate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="rotate"
+        android:padding="10dp"
+        android:layout_toRightOf="@+id/tv_alpha"
+        />
+    <TextView
+        android:id="@+id/tv_translate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="translate"
+        android:padding="10dp"
+        android:layout_toRightOf="@+id/tv_rotate"
+        />
+    <TextView
+        android:id="@+id/tv_all"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="all"
+        android:padding="10dp"
+        android:layout_toRightOf="@+id/tv_translate"
         />
 </RelativeLayout>

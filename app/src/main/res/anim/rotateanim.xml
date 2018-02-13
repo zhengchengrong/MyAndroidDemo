@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 18-2-13 上午10:18.
+  ~ admin:郑程荣.
+  ~ 文件名:rotateanim.xml
+  ~ 文件功能:
+  -->
+<rotate xmlns:android="http://schemas.android.com/apk/res/android"
+    android:fromDegrees="0"
+    android:toDegrees="-650"
+    android:pivotX="50%"
+    android:pivotY="50%"
+    android:duration="3000"
+    android:fillAfter="true"/>
